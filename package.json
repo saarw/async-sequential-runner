@@ -1,6 +1,6 @@
 {
   "name": "async-sequential-runner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript class for running async tasks to completion in sequence.",
   "main": "index.js",
   "dependencies": {},
@@ -22,7 +22,7 @@
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
-    "postversion" : "git push && git push --tags"
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
