@@ -8,6 +8,8 @@ Written to support backends where multiple requests with intermittent pauses acc
 
 # Usage
 ```
+    import { AsyncSequentialRunner } from './async-sequential-runner';
+    
     const resource = {
         counter: 1
     }
