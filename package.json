@@ -2,7 +2,8 @@
   "name": "async-sequential-runner",
   "version": "1.0.2",
   "description": "TypeScript class for running async tasks to completion in sequence.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^24.0.19",
