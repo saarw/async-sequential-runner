@@ -1,5 +1,4 @@
-import AsyncSequentialRunner from './async-sequential-runner';
-import { promises } from 'dns';
+import { AsyncSequentialRunner } from './async-sequential-runner';
 
 function timeoutPromise<R>(fn: () => R, timeout: number): Promise<R> {
   return new Promise((resolve, reject) => {

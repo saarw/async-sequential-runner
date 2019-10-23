@@ -1,1 +1,1 @@
-export * from './async-sequential-runner';
+export { AsyncSequentialRunner } from './async-sequential-runner';

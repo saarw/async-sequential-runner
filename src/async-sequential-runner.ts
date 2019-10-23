@@ -16,7 +16,7 @@ async function* serialAsyncRunner<R>(queue: Array<(hasMore: boolean) => Promise<
 /**
  * Runs async tasks sequentially.
  */
-class AsyncSequentialRunner<R> {
+export class AsyncSequentialRunner<R> {
   private activeIterator?: {
     gen: AsyncGenerator<R, void, unknown>;
     queue: Array<(hasMore: boolean) => Promise<R>>;
@@ -107,5 +107,3 @@ class AsyncSequentialRunner<R> {
     return !!((this.triggers && this.triggers.length > 0) || (this.activeIterator && this.activeIterator.queue.length));
   }
 }
-
-export default AsyncSequentialRunner;
