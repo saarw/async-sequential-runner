@@ -1,5 +1,7 @@
 # async-sequential-runner
-A runner for async tasks that can pause their execution to ensure that each task runs to completion before the next task is started, instead of allowing new tasks to progress while one task is paused. Also allows registering cancelable triggers that will resolve when a task has completed running, to enable polling. Written to support backends where multiple requests with intermittent pauses access a resource that should only be accessed sequentially.
+A runner for async tasks that can pause their execution to ensure that each task runs to completion before the next task is started, instead of allowing new tasks to progress while one task is paused. Also allows registering cancelable triggers that will resolve when a task has completed running, to enable polling.    
+   
+Written to support backends where multiple requests with intermittent pauses access a resource that should only be accessed sequentially (such as a [flushout](https://github.com/saarw/flushout) master model).
 
 # Installation
 ```npm install --save async-sequential-runner```
