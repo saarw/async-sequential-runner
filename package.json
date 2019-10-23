@@ -25,8 +25,8 @@
     "url": "git+https://github.com/saarw/async-sequential-runner.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "William Saar",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/saarw/async-sequential-runner/issues"
   },
