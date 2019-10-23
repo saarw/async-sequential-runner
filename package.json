@@ -28,7 +28,16 @@
     "type": "git",
     "url": "git+https://github.com/saarw/async-sequential-runner.git"
   },
-  "keywords": [],
+  "keywords": [
+    "promise",
+    "async",
+    "AsyncGenerator",
+    "sequence",
+    "sequential",
+    "serial",
+    "task",
+    "runner"
+  ],
   "author": "William Saar",
   "license": "MIT",
   "bugs": {
